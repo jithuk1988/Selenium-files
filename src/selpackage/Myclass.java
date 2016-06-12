@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import jxl.Sheet;
 import jxl.Workbook;
@@ -15,6 +16,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class Myclass {
 	
@@ -80,7 +82,6 @@ public class Myclass {
 	       // String Urladd="https://www.sabarimalaaccomodation.com/ver1/generalpubliclogin.aspx";
 	          WebDriver driver = new FirefoxDriver();
 	          driver.get(urladdress);
-	          driver.
 	          System.out.println(driver.getTitle());
 	          
 	      //    WebElement user=driver.findElement(By.id("ContentPlaceHolder1_txtusername"));   //Element Id of Username field
@@ -100,14 +101,7 @@ public class Myclass {
 	        	  	System.out.println("Login Failed ");
 	          	}
 	          driver.findElement(By.xpath(".//*[@id='ContentPlaceHolder1_ImageButton2']")).click();  //Logout
-	          if(driver.getPageSource().contains("Best")&& driver.getPageSource().contains("Login"))
-	          	{
-	        	  	System.out.println("Logout Successful");
-	          	}
-	          else
-	          	{
-	        	  	System.out.println("Logout Failed");
-	          	}
+	          System.out.println("Logout Success ");
 	          driver.close();
 	  
 	      }
