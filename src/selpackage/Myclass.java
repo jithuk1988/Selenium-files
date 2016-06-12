@@ -80,6 +80,7 @@ public class Myclass {
 	       // String Urladd="https://www.sabarimalaaccomodation.com/ver1/generalpubliclogin.aspx";
 	          WebDriver driver = new FirefoxDriver();
 	          driver.get(urladdress);
+	          driver.
 	          System.out.println(driver.getTitle());
 	          
 	      //    WebElement user=driver.findElement(By.id("ContentPlaceHolder1_txtusername"));   //Element Id of Username field
@@ -92,13 +93,21 @@ public class Myclass {
 	          WebDriverWait newwait=new WebDriverWait(driver, 2);
 	          if(driver.getPageSource().contains("WELCOME")&&driver.getPageSource().contains("JITHU") )
 	          	{
-	        	  	System.out.println("Welcome Page Loaded correctly");
+	        	  	System.out.println("Login Success");
 	          	}
 	          else
 	          	{
-	        	  	System.out.println("Welcome Page not loaded fully");
+	        	  	System.out.println("Login Failed ");
 	          	}
-	    
+	          driver.findElement(By.xpath(".//*[@id='ContentPlaceHolder1_ImageButton2']")).click();  //Logout
+	          if(driver.getPageSource().contains("Best")&& driver.getPageSource().contains("Login"))
+	          	{
+	        	  	System.out.println("Logout Successful");
+	          	}
+	          else
+	          	{
+	        	  	System.out.println("Logout Failed");
+	          	}
 	          driver.close();
 	  
 	      }
