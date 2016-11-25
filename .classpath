@@ -2,8 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="F:/selenium-java-2.53.0/selenium-2.53.0/selenium-java-2.53.0.jar"/>
 	<classpathentry kind="lib" path="F:/selenium-java-2.53.0/selenium-2.53.0/selenium-java-2.53.0-srcs.jar"/>
+=======
+>>>>>>> 99cba0a905a8d9ba186f80a18bf396441cda2c8b
 	<classpathentry kind="lib" path="F:/selenium-java-2.53.0/selenium-2.53.0/libs/apache-mime4j-0.6.jar"/>
 	<classpathentry kind="lib" path="F:/selenium-java-2.53.0/selenium-2.53.0/libs/bsh-2.0b4.jar"/>
 	<classpathentry kind="lib" path="F:/selenium-java-2.53.0/selenium-2.53.0/libs/cglib-nodep-2.1_3.jar"/>
@@ -25,5 +28,11 @@
 	<classpathentry kind="lib" path="F:/selenium-java-2.53.0/selenium-2.53.0/libs/netty-3.5.7.Final.jar"/>
 	<classpathentry kind="lib" path="F:/selenium-java-2.53.0/selenium-2.53.0/libs/phantomjsdriver-1.2.1.jar"/>
 	<classpathentry kind="lib" path="F:/selenium-java-2.53.0/selenium-2.53.0/libs/testng-6.9.9.jar"/>
+<<<<<<< HEAD
+=======
+	<classpathentry kind="lib" path="F:/selenium-java-2.53.0/selenium-2.53.0/selenium-java-2.53.0.jar"/>
+	<classpathentry kind="lib" path="F:/selenium-java-2.53.0/selenium-2.53.0/selenium-java-2.53.0-srcs.jar"/>
+	<classpathentry kind="lib" path="F:/jxl-2.6.3.jar/jxl-2.6.3.jar"/>
+>>>>>>> 99cba0a905a8d9ba186f80a18bf396441cda2c8b
 	<classpathentry kind="output" path="bin"/>
 </classpath>
